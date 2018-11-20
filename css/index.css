@@ -1,8 +1,60 @@
+@import url(comman.css);
 .top{
 	height: 45px;
-	background: #000;
+	background: #3a3b3e;
+}
+.top .logo{
+	width: 45px;
+	height: 45px;
+	float: left;
+}
+.top .top-nav{
+	height: 45px;
+	float: left;
+	margin-left: 190px;
+}
+.top .top-nav .top-nav-item{
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	float: left;
+	font-size: 12px;
+	margin-left: 39px;
+}
+.top .top-nav .top-nav-item a{
+	opacity: 0.5;
+	text-decoration: none;
+}
+.top .top-nav .top-nav-item a:hover{
+	opacity: 1;
+}
+.top .user{
+	height: 45px;
+	line-height: 45px;
+	margin-right: 20px;
+	float: right;
+}
+.top .user i{
+	display: inline-block;
+	font-size: 16px;
+	color: #a5a6a6;
+	float: left;
+	margin-left: 5px;
 }
 .header{
 	height: 74px;
 	background: red;
+}
+.header .header-nav{
+	height: 74px;
+	line-height: 74px;
+	float: left;
+}
+.header .header-nav .header-nav-item{
+	float: left;
+	font-size: 15px;
+	margin-left: 31px;
+}
+.header .header-nav .header-nav-item a{
+
 }
