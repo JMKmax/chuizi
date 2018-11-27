@@ -1,0 +1,92 @@
+
+
+
+.top{
+	background:#313235;
+}
+.top .top-nav{
+	float: left;
+	margin-left: 559px;
+	/*width: 730px;*/
+	
+}
+.top .top-nav .top-nav-item{
+	float: left;
+	height: 56px;
+	line-height: 56px;
+}
+.top .sep{
+	color: #413b36;
+	margin: 0 0.5em;
+}
+.top .user-info{
+	float: right;
+	width: 14px;
+	height: 56px;
+	background: purple;
+}
+.top .cart{
+	float: right;
+	width: 14px;
+	height: 56px;
+	background: blue;
+}
+
+.top .cart .cart-box a{
+	display: inline-block;
+	width: 100%;
+	height: 56px;
+	line-height: 56px;
+	text-align: center;
+}
+.top .cart-box .icon-cart{
+	font-size: 15px;
+}
+.top .user-info a{
+	display: inline-block;
+	width: 100%;
+	height: 56px;
+	line-height: 56px;
+	text-align: center;
+}
+.header{
+	height: 93px;
+	background: #fff;
+}
+
+.header .header-nav{
+	float: left;
+
+	margin-left: 439px;
+	margin-top: 16px;
+}
+.header .header-nav .header-nav-item{
+	float: left;
+	height: 61px;
+	line-height: 93px;
+	margin-right: 24px;
+}
+.header .header-nav .header-nav-item a{
+	font-size: 12px;
+	color:#333;
+}
+.header .header-nav .header-nav-item a:hover{
+	color: #ff6700;
+}
+.header .search{
+	float: right;
+	width: 275px;
+	height: 30px;
+	margin-top: 31px;
+	background: yellow;
+}
+
+
+.home{
+	height: 816px;
+	background: pink;
+}
+.footer{
+	height: 398px;
+	background: purple;
+}
