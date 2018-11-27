@@ -5,7 +5,7 @@
 * @Last Modified time: 2018-11-15 20:47:50
 */
 .top{
-	background: #333; 
+	background: rgb(35,36,38); 
 }
 .top .top-img{
 	height: 40px;
@@ -306,8 +306,8 @@
 	height: 28px;
 }
 .end .slogan{
-	height: 28px;
-	width: 70px;
+	height: 20px;
+	width: 90px;
 	background-image: url(../images/chinese.png);
 	position: absolute;
 	top: 30px;
