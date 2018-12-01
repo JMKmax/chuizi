@@ -191,7 +191,7 @@
 .home .home-container{
 	position: absolute;
 	height: 604px;
-	width: 1258px;
+	width: 1250px;
 	margin-left: 186px;
 	margin-top: 52px;
 	background: #fff;
@@ -242,13 +242,50 @@
 .home-container .product-price span{
 	color: #ff6700;
 }
+
+.article{
+	display: inline-block;
+	/*height: 192px;*/
+	background: #fff;
+	width: 1258px;
+	padding-bottom: 20px;
+}
+.article .service{
+	padding:42px 0;
+}
+.article .service-item{
+	float: left;
+	width: 25%;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	vertical-align: -4px;
+	cursor: pointer;
+
+}
+.article .service-item i{
+	font-size: 30px;
+}
+.article .service-item h3{
+	color: #000;
+	font-size: 16px;
+}
+.article .service-item p{
+	color: #a8a8a8;
+	font-size: 12px;
+}
 .footer{
 	height: 398px;
-	background: purple;
+	background: #fafafa;
 }
 .footer .links{
 	padding: 76px 186px;
+	width: 1200px;
+	border-bottom: 1px solid #e0e0e0;
 }
+/*.footer .container{
+	border-bottom: 1px solid #e0e0e0;
+}*/
 .footer .link-item{
 	float: left;
 	width: 64px;
@@ -307,4 +344,30 @@
 }
 .footer .link-contact a:hover{
 	box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+.end .info .sites{
+	float: left;
+}
+.end .nav-link .sep{
+	margin-left: 186px;
+	font-size: 12px;
+	color: #bdbdbd;
+	/*display: inline-block;*/
+	/*width: 1px;*/
+	/*height: 12px;*/
+	/*background: #b0b0b0;*/
+}
+.end .sites .stp:hover{
+	color: #5079d9;
+}
+.end .sites .icp{
+	margin-left: 186px;
+	font-size: 12px;
+	color: #bdbdbd;
+}
+.end .sites .icp span:hover{
+	cursor: pointer;
+}
+.end .info .links{
+	padding-right: 500px;
 }
