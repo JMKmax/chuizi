@@ -13,8 +13,9 @@ a{
 	color: #a3a4a5;
 }
 .caption{
-	width: 1222px;
-	margin:0 auto;
+	/*width: 1222px;*/
+	margin-left: 25px;
+	margin-right: 25px;
 }
 .header{
 	background: #fff;
