@@ -91,6 +91,93 @@
 	font-size: 15px;
 	margin-left: 31px;
 }
+.header .header-nav .header-nav-item ul,
+.header .header-nav .header-nav-item .ula{
+	width: 100%;
+	margin-left: -31px;
+	position: absolute;
+	top: 74px;
+	width: 100%;
+	height: 275px;
+	background: #fff;
+	border-top: 1px solid #808080;
+	border-bottom: 1px solid #808080;
+	display: none;
+
+}
+.header .header-nav-item>ul li{
+	float: left;
+	margin-left: 32px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.header .header-nav-item .phone-nav-item img{
+	width: 70px;
+	height: 85px;
+	margin-bottom: -28px;
+}
+.header .header-nav-item .phone-nav-item .phone-nav-name{
+	font-size: 13px;
+	margin-bottom: -13px;
+	color: #333;
+}
+.header .header-nav-item .phone-nav-item .phone-nav-price{
+	font-size: 12px;
+	color: #d84c49;
+}
+.header .header-nav-item .phone-nav-item .phone-nav-price span{
+	color: #808080;
+}
+.header .header-nav-item dl{
+	float: left;
+	cursor: pointer;
+	margin-left: 20px;
+}
+.header .header-nav-item dd{
+	font-size: 12px;
+	color: #818181;
+	margin-bottom: -25px;
+	margin-top: 10px;
+}
+.header .header-nav-item dt{
+	margin-bottom: -35px;
+}
+.header .header-nav-item dl dt img{
+	width: 36px;
+	height: 33px;
+	margin-left: 16px;
+	vertical-align: middle;
+}
+.header .header-nav-item>li dt span{
+	font-size: 14px;
+	color: #333;
+}
+.header .header-nav .header-nav-item .ula{
+	margin-left: -273px;
+}
+.header .header-nav-item:hover .ula{
+	display: block;
+}
+
+.header .header-nav .header-nav-item .phone3-nav.ula{
+	padding-left: 80px;
+	margin-left: -365px;
+}
+.header .header-nav .header-nav-item .phone4-nav.ula{
+	margin-left: -473px;
+	padding-left: 473px;
+}
+.header .header-nav .header-nav-item .phone5-nav.ula{
+	margin-left: -547px;
+}
+.header .header-nav .header-nav-item .phone-nav{
+	padding-left: 360px;
+}
+.header .header-nav-item .phone2-nav{
+	padding-left: 220px;
+}
+
 .header .header-nav .header-nav-item:first-child a,
 .header .header-nav .header-nav-item:nth-child(3) a{
 	color: #333;
@@ -180,48 +267,16 @@
 	display: block;
 }
 .header .header-item{
+	
+	
+}
+.header .header-nav-item>ul{
 	width: 100%;
-	height: 275px;
-	position: absolute;
-	top: 74px;
+	
+	/*display: none;*/
 }
-.header .header-item>li{
-	width: 100%;
-	height: 275px;
-	background: #fff;
-	border-top: 1px solid #808080;
-	border-bottom: 1px solid #808080;
-	display: none;
-}
-.header .header-item>li dl{
-	float: left;
-	margin-left: 32px;
-}
-.header .header-item>li dd{
-	font-size: 12px;
-	color: #818181;
-	margin-bottom: 15px;
-	margin-top: 30px;
-}
-.header .header-item>li dt img{
-	width: 36px;
-	height: 33px;
-	margin-left: 16px;
-	vertical-align: middle;
-}
-.header .header-item>li dt span{
-	font-size: 14px;
-	color: #333;
-}
-.header .header-item .phone-nav{
-	padding-left: 360px;
-}
-.header .header-item .phone2-nav{
-	padding-left: 220px;
-}
-.header .header-item .phone3-nav{
-	padding-left: 80px;
-}
+
+
 .header .header-item .phone4-nav{
 	padding-left: 430px;
 }
@@ -232,23 +287,7 @@
 	text-align: center;
 	padding-top: 39px;
 }
-.header .header-item .phone-nav-item img{
-	width: 70px;
-	height: 85px;
-	margin-bottom: 28px;
-}
-.header .phone-nav-item .phone-nav-name{
-	font-size: 13px;
-	margin-bottom: 13px;
-	color: #333;
-}
-.header .phone-nav-item .phone-nav-price{
-	font-size: 12px;
-	color: #d84c49;
-}
-header .phone-nav-item .phone-nav-price span{
-	color: #808080;
-}
+
 .main .main-top .main-top-item{
 	float: left;
 	margin-left: 40px;
