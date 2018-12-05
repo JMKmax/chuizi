@@ -161,7 +161,7 @@
 }
 
 .header .header-nav .header-nav-item .phone3-nav.ula{
-	padding-left: 80px;
+	padding-left: 170px;
 	margin-left: -365px;
 }
 .header .header-nav .header-nav-item .phone4-nav.ula{
@@ -172,10 +172,10 @@
 	margin-left: -547px;
 }
 .header .header-nav .header-nav-item .phone-nav{
-	padding-left: 360px;
+	padding-left: 620px;
 }
 .header .header-nav-item .phone2-nav{
-	padding-left: 220px;
+	padding-left: 390px;
 }
 
 .header .header-nav .header-nav-item:first-child a,
@@ -266,17 +266,6 @@
 .header .header-search .search-text:focus~.search-btn{
 	display: block;
 }
-.header .header-item{
-	
-	
-}
-.header .header-nav-item>ul{
-	width: 100%;
-	
-	/*display: none;*/
-}
-
-
 .header .header-item .phone4-nav{
 	padding-left: 430px;
 }
@@ -316,7 +305,7 @@
 	border:1px solid rgba(0,0,0,0.2);
 	border-left: none;
 	position: relative;
-	transition: all 1s;
+	transition: all 0.5s;
 
 }
 .main .main-home .main-home-item:hover{
