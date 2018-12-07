@@ -504,20 +504,6 @@
 }
 .bottom .bottom-loge{
 	float: right;
-}
-.bottom .bottom-loge span{
-	font-size: 12px;
-	color: #77797c;
-	float: right;
-	margin-right: 24px;
-}
- .bottom .bottom-loge div{
- 	vertical-align: -3px;
- 	float: right;
-	width: 0px;
-	border-top: 5px solid rgba(0,0,0,0);
-	border-right: 5px solid rgba(0,0,0,0);
-	border-bottom: 5px solid #bdbdbd;
-	border-left: 5px solid rgba(0,0,0,0);
+	margin-top: -18px;
 }
 
