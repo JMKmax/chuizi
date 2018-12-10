@@ -1,9 +1,20 @@
 a{
 	text-decoration: none;
+	font-size: 12px;
 }
 .content{
 	width: 1220px;
 	margin: 0 auto;
+}
+.clearfix:after{
+	content:"";
+	clear:both;
+	display: block;
+	height: 0px;
+	visibility: hidden;
+}
+.clearfix{
+	*zoom:1;
 }
 
 
@@ -11,8 +22,8 @@ a{
 
 
 .top1{
-	border-bottom: 1px solid black;
-	background: #2e3461;
+	border-bottom: 1px solid #2f3351;
+	background: #212750;
 }
 .top1 .content{
 	position: relative;
@@ -88,12 +99,12 @@ a{
 	color: #bcbcbc;
 	margin-top: -70px;
 }
-.top1 .top1-shop a:nth-child(2):hover~.shop-list{
+.top1 .top1-shop .car:hover~.shop-list{
 	opacity: 1;
 }
 .top2{
-	border-bottom: 1px solid black;
-	background: #3c4372;
+	border-bottom: 1px solid #2f3351;
+	background: #212750;
 }
 .top2 .content{
 	height: 40px;
@@ -136,6 +147,11 @@ a{
 	margin-top: 5px;
 	border-radius: 4px;
 	background: #3e55c3;
+	box-sizing: border-box;
+
+}
+.top2 .content .root:hover{
+	border: 1px solid #000;/*不管用,购物列表z-index-999*/
 }
 .top2 .content .root span{
 	font-size: 12px;
@@ -145,8 +161,8 @@ a{
 
 
 .top3{
-	border-bottom: 1px solid black;
-	background: #3c4372;
+	border-bottom: 1px solid #2f3351;
+	background: #212750;
 }
 .top3 .content{
 	position: relative;
@@ -191,7 +207,7 @@ a{
 	width: 5px;
 	height: 15px;
 	margin-left: 12px;
-	background: #3c4372;
+	/*background: #green;*/
 }
 .top3 .content .dot .dot-item .dot-item-shape{
 	width: 2px;
@@ -254,19 +270,177 @@ a{
 
 
 
-.main{
+.main .picture{
 	width: 100%;
-	height: 3000px;
 	background: pink;
 }
-.main .smart-a{
+.main .picture .picture-item{
 	width: 100%;
-	height: 660px;
-	margin-left: -50%;
-
+	margin-bottom: -6px;
 }
 
 
+/*arctical共通*/
+.main .article .kind{
+	/*background: blue;*/
+	padding-bottom: 120px;
+}
+.main .article .kind li{
+	margin: 0 auto;
+	text-align: center;
+}
+.main .article .kind .image{
+	width: 192px;
+	height: 276px;
+}
+.main .article .kind-message{
+	width: 400px;
+	margin-bottom: 35px;
+}
+.main .article .kind h3{
+	font-size: 40px;
+	font-weight: bolder;
+	
+}
+.main .article .kind .text{
+	font-size: 18px;
+	font-weight: 400px;
+	color: #999;
+	line-height: 36px;
+}
+.main .article .kind .text1{
+	margin-top: 35px;
+}
+
+
+.main .article .kind-item{
+	float: left;
+	width: 425px;
+	height: 884px;
+	text-align: center;
+	/*background: orange;*/
+}
+.main .article .kind-item .phone-posi{
+	position: relative;
+	width: 316px;
+	height: 696px;
+	margin-left: 55px;
+}
+.main .article .kind-item .phone{
+	width: 316px;
+
+}
+.main .article .kind-item .phone-con{
+	position: absolute;
+	top: 40px;
+	left: 16px;
+	width: 282px;
+	height: 568px;
+}
+.main .article .kind-item h4{
+	font-size: 18px;
+	color: #323232;
+}
+.main .article .kind-item p{
+	font-size: 14px;
+	line-height: 24px;
+	padding: 25px 34px 0 34px;
+    box-sizing: border-box;
+	text-align: left;
+	color: #999;
+}
+/*arctical共通*/
+
+
+
+
+.main .article{
+	/*height: 8000px;*/
+	/*background: skyblue;*/
+	border-bottom: 1px solid #c4c4c4;
+}
+.main .article .content{
+	height: 100%;
+	/*background: gray;*/
+	border-top: 1px solid #c4c4c4;
+}
+
+/*子弹短信*/
+.main .article .bollet .button{
+	width: 430px;
+	height: 50px;
+	margin-top: 34px;
+	/*background: yellow;*/
+}
+.main .article .bollet .button .button-item{
+	float: left;
+	margin-left: 40px;
+	border: 1px solid #d9d9d9;
+	box-sizing: border-box;
+	border-radius: 7px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	color: #626262;
+}
+.main .article .bollet .button .button-item:nth-child(1){
+	width: 150px;
+	margin-left: 0px;
+}
+.main .article .bollet .button .button-item:nth-child(2){
+	width: 150px;
+}
+.main .article .bollet .button .button-item:nth-child(3){
+	width: 50px;
+}
+.main .article .bollet .button img{
+	vertical-align: middle;
+}
+.main .article .bollet .sm-d{
+	margin-top: 63px;
+}
+.main .article .bollet .sm-d img{
+	width: 100%;
+}
+.main .article .two{
+	border-top: 1px solid #c4c4c4;
+	padding: 120px 0 50px;
+}
+.main .article .two .two-item:first-child,
+.main .article .two .two-item:nth-child(3){
+	margin-left: 185px;
+	/*background: pink;*/
+}
+/*快捷桌面-Smartisan 输入法*/
+.main .article .three{
+	border-top: 1px solid #c4c4c4;;
+}
+.main .article .three .three-item{
+	width: 406px;
+}
+.main .article .three .three-item .phone-posi{
+	margin-left: 45px;
+}
+
+
+/*更多升级*/
+.main .article .kind .bank{
+	width: 192px;
+	height: 103px;
+}
+.main .article .three .more{
+	padding-bottom: 0px;
+}
+.main .article .more-two{
+	padding: 70px 0;
+	border-top: none;
+}
+.more-two .kind-item .phone-text .new{
+	text-align: center;
+	font-size: 12px;
+}
 
 
 
@@ -282,10 +456,12 @@ a{
 .end .foot-list{
 	height: 120px;
 	border-bottom: 1px solid #e6e6e6;
-	padding: 60px 0px;
+	padding: 55px 0px 45px;
 }
 .end .foot-list .left-list{
+	float: left;
 	height: 110px;
+	width: 900px;
 }
 .end .foot-list .left-list dl{
 	float: left;
@@ -293,6 +469,7 @@ a{
 	box-sizing: border-box;
 }
 .end .foot-list .left-list dl dt{
+	font-size: 12px;
 	font-weight: 700;
 	color: #646464;
 }
@@ -310,6 +487,7 @@ a{
 }
 
 .end .foot-list .right-list{
+	float: right;
 	text-align: right;
 }
 .end .foot-list .right-list .num{
@@ -318,14 +496,17 @@ a{
 	font-weight: 1000;
 }
 .end .foot-list .right-list .time{
+	font-size: 13px;
 	color: #999;
 	margin-top: 13px;
 }
 .end .foot-list .right-list .txt{
+	font-size: 13px;
 	color: #999;
 	margin-top: 2px;
 }
 .end .foot-list .right-list .help{
+	font-size: 13px;
 	float: right;
 	width: 130px;
 	height: 30px;
@@ -335,9 +516,11 @@ a{
 	color: #5079d9;
 	background: #f5f5f5;
 	border-radius: 5px;
+	font-size: 13px;
 	font-weight: 700;
 	margin-top: 15px;
 	box-sizing: border-box;
+	cursor: pointer;
 }
 .end .foot-list .right-list .help i{
 	font-size: 14px;
@@ -351,6 +534,7 @@ a{
 }
 .end .foot-nav .left-nav .nav-link li{
 	float: left;
+	font-size: 12px;
 	margin-left: 8px;
 }
 .end .foot-nav .left-nav .nav-link li .link{
@@ -405,4 +589,37 @@ a{
 	font-size: 12px;
 	font-weight: 400;
 	color: #bdbdbd;
+}
+.end .foot-nav .right-nav img{
+	float: right;
+	cursor: pointer;
+}
+
+
+.back-top{
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+	width: 43px;
+	height: 43px;
+	border: 1.2px solid #cbc5c5;
+	border-radius: 10px;
+	background: #fff;
+	opacity: 0.5;
+	transition: all 0.5s;
+}
+.back-top:hover{
+	opacity: 1;
+}
+.back-top .triangle{
+	position: absolute;
+	top: 4px;
+	right: 5px;
+	width:0px;
+	height:0px;
+	border-top:6px solid #fff;
+	border-right:6px solid #fff;
+	border-bottom:6px solid #b7b9c7;
+	border-left:6px solid #fff;
+	margin: 8px 10px 0px 18px;
 }
