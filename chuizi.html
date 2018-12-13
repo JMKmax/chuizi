@@ -49,7 +49,15 @@
 			<div class="list fl">
 				<ul>
 					<li><a href="#" class="link">首页</a></li>
-					<li><a href="#" class="link">手机</a></li>
+					<li>
+						<a href="#" class="link clearfix" id="list-first">手机</a>
+						<ul id="ul1">
+							<li><img src="images/phone1.png"></li>
+							<li><img src="images/phone2.png"></li>
+							<li><img src="images/phone3.png"></li>
+							<li><img src="images/phone4.png"></li>
+						</ul>
+					</li>
 					<li><a href="#" class="link">"足迹"系列</a></li>
 					<li><a href="#" class="link">官方配件</a></li>
 					<li><a href="#" class="link">畅呼吸系列</a></li>
@@ -646,4 +654,25 @@
 		</div>
 	</section>
 </body>
+<script type="text/javascript">
+	var oUl1 = document.getElementById('ul1');
+	var oBox = document.getElementById('list-first');
+
+
+	console.log(oUl1);
+	console.log(oBox);
+
+
+
+	oBox.addEventListener('mousemove',function(ev){
+		oUl1.style.display = 'block';
+		event.stopPropagation();
+	},false);
+	oUl1.addEventListener('mousemove',function(ev){
+		event.stopPropagation();
+	},false);
+	document.addEventListener('mousemove',function(ev){
+		oUl1.style.display = 'none';
+	},false);
+</script>
 </html>

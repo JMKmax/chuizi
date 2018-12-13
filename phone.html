@@ -46,10 +46,20 @@
 	</section>
 	<header class="header">
 		<div class="container">
-			<div class="list fl">
+			<div class="list fl ">
 				<ul>
-					<li><a href="#" class="link">首页</a></li>
-					<li><a href="#" class="link">手机</a></li>
+					<li>
+						<a href="#" class="link">首页</a>
+					</li>
+					<li>
+						<a href="#" class="link clearfix" id="list-first">手机</a>
+						<ul id="ul1">
+							<li><img src="images/phone1.png"></li>
+							<li><img src="images/phone2.png"></li>
+							<li><img src="images/phone3.png"></li>
+							<li><img src="images/phone4.png"></li>
+						</ul>
+					</li>
 					<li><a href="#" class="link">"足迹"系列</a></li>
 					<li><a href="#" class="link">官方配件</a></li>
 					<li><a href="#" class="link">畅呼吸系列</a></li>
@@ -89,7 +99,129 @@
 			</div>
 		</div>
 	</header>
-	<section class="home"></section>
+	<section class="home">
+		<div class="home-top">
+		<ul>
+			<li><a href="#" class="link">综合排序</a></li>
+			<li><a href="#" class="link">销量排序</a></li>
+			<li><a href="#" class="link">价格低到高</a></li>
+			<li><a href="#" class="link">价格高到低</a></li>
+		</ul>
+		</div>
+		<div class="rexiao">
+				<div class="rexiao-list-gt">
+					<ul class="list-box">
+						<li>
+							<a href="#" class="link">
+								<div class="off">买赠</div>
+								<img src="images/remen1.jpg">
+								<h4>坚果 Pro 2S</h4>
+								<p>双系统, 无限屏</p>
+								<p>赠软胶透明保护套（数量有限送完即止）</p>
+								<ul>
+									<li></li>
+									<li></li>
+									<li></li>
+									<li></li>
+								</ul>
+								<span class="num">￥ 2,298.00</span>
+								<div class="xiangqing">查看详情</div>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="link">
+								<img src="images/remen2.jpg">
+								<h4>坚果 Pro 2S</h4>
+								<p>双系统, 无限屏</p>
+								<p>赠软胶透明保护套（数量有限送完即止）</p>
+								<ul>
+									<li></li>
+									<li></li>
+									<li></li>
+									<li></li>
+								</ul>
+								<span class="num">￥ 2,298.00</span>
+								<div class="xiangqing">查看详情</div>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="link">
+								<img src="images/remen3.jpg">
+								<h4>坚果 Pro 2S</h4>
+								<p>双系统, 无限屏</p>
+								<p>赠软胶透明保护套（数量有限送完即止）</p>
+								<ul>
+									<li></li>
+									<li></li>
+									<li></li>
+									<li></li>
+								</ul>
+								<span class="num">￥ 2,298.00</span>
+								<div class="xiangqing">查看详情</div>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="link">
+								<div class="off">满减</div>
+								<img src="images/remen4.jpg">
+								<h4>坚果 Pro 2S</h4>
+								<p>双系统, 无限屏</p>
+								<p>赠软胶透明保护套（数量有限送完即止）</p>
+								<ul>
+									<li></li>
+									<li></li>
+									<li></li>
+									<li></li>
+								</ul>
+								<span class="num">￥ 2,298.00</span>
+								<div class="xiangqing">查看详情</div>
+							</a>
+						</li>
+						<li></li>
+					</ul>
+				</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="sercive">
+				<ul class="clearfix">
+					<li class="sercive-item">
+						<a href="#">
+							<i class="iconfont fa fa-user"></i>
+							<br>
+							在线客服
+							<p>周一至周日 9:00-18:00</p>
+						</a>					
+					</li>
+					<li class="sercive-item">
+						<a href="#">
+							<i class="iconfont fa fa-user"></i>
+							<br>
+							7天无理由退货
+							<p>7 天无理由退货 请放心购买</p>
+						</a>
+					</li>
+					<li class="sercive-item">
+						<a href="#">
+							<i class="iconfont fa fa-user"></i>
+							<br>
+							15天免费换货
+							<p>15 天内如遇质量问题 免费换货</p>
+						</a>
+					</li>
+					<li class="sercive-item">
+						<a href="#">
+							<i class="iconfont fa fa-user"></i>
+							<br>
+							满150元包邮
+							<p>全场使用顺丰及京东快递</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
 	<section class="end">
 		<div class="container">
 			<div class="foot-list">
@@ -161,4 +293,19 @@
 		</div>
 	</section>
 </body>
+<script type="text/javascript">
+	var oUl1 = document.getElementById('ul1');
+	var oBox = document.getElementById('list-first');
+
+	oBox.addEventListener('mousemove',function(ev){
+		oUl1.style.display = 'block';
+		event.stopPropagation();
+	},false);
+	oUl1.addEventListener('mousemove',function(ev){
+		event.stopPropagation();
+	},false);
+	document.addEventListener('mousemove',function(ev){
+		oUl1.style.display = 'none';
+	},false);
+</script>
 </html>
