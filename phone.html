@@ -52,8 +52,8 @@
 						<a href="chuizi.html" class="link">首页</a>
 					</li>
 					<li>
-						<a href="phone.html" class="link clearfix" id="list-first">手机</a>
-						<ul id="ul1">
+						<a href="phone.html" class="link clearfix list-first">手机</a>
+						<ul class="ul1">
 							<li><img src="images/phone1.png"></li>
 							<li><img src="images/phone2.png"></li>
 							<li><img src="images/phone3.png"></li>
@@ -296,19 +296,17 @@
 	</section>
 </body>
 <script type="text/javascript">
-	var oUl1 = document.getElementById('ul1');
-	var oBox = document.getElementById('list-first');
-
-	oBox.addEventListener('mousemove',function(ev){
+	var oUl1 = document.querySelector('.ul1');
+	var oBox = document.querySelector('.list-first');
+	var timer = 0;
+	oBox.onmouseover = oUl1.onmouseover = function(){
+		clearTimeout(timer);
 		oUl1.style.display = 'block';
-		event.stopPropagation();
-	},false);
-	oUl1.addEventListener('mousemove',function(ev){
-		oUl1.style.display = 'block';
-		event.stopPropagation();
-	},false);
-	document.addEventListener('mousemove',function(ev){
-		oUl1.style.display = 'none';
-	},false);
+	}
+	oBox.onmouseout = oUl1.onmouseout = function(){
+		timer = setTimeout(function(){
+			oUl1.style.display = 'none';
+		},500)
+	}
 </script>
 </html>

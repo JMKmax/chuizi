@@ -436,23 +436,21 @@
 .header .list li:hover .link{
 	color: #5079d9;
 }
-.header .list #ul1{
+.header .list .ul1{
 	position: absolute;
 	top: 85px;
 	left: -300px;
-	/*float: left;*/
-	/*display: none;*/
+	display: none;
 	box-sizing: border-box;
 	width:2000px;
 	z-index: 999;
 	text-align: center;
 	background-color: rgba(255,255,255,1);
 }
-.header .list #ul1 li{
+.header .list .ul1 li{
 	float: left;
-	/*width:20%;*/
 }
-.header .list #ul1 li:first-child{
+.header .list .ul1 li:first-child{
 	margin-left: 500px;
 }
 .header .sousuo{
