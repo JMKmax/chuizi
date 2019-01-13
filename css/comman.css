@@ -31,3 +31,39 @@ a{
 	padding-bottom: 60px;
 	background: #fff;
 }
+.loader{
+	width: 4px;
+	height: 20px;
+	background-color: #ff6700;
+	margin:90px auto;
+	position: relative;
+	animation: loading 0.5s linear 0s infinite;
+}
+.loader:after,.loader:before{
+	content: '';
+	width: 4px;
+	height: 20px;
+	background-color: #ff6700;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	transform: scale(1,0.5);
+}
+.loader:after{
+	margin-left: 10px;
+	animation: loading 0.5s linear 0.3s infinite;
+}
+.loader:before{
+	margin-left: -10px;
+	animation: loading 0.5s linear 0.5s infinite;
+}
+@keyframes loading{
+	from{
+		opacity: 0.5;
+		transform: scale(1,0.5);
+	}
+	to{
+		opacity: 1;
+		transform: scale(1,1);
+	}
+}

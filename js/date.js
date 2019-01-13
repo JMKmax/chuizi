@@ -1,0 +1,226 @@
+var aContent = [
+	[
+		{
+			src:'https://www.kuzhu.com',
+			img:'images/phone.webp',
+			name:'坚果 R1',
+			price:'￥2999:00',
+		},
+		{
+			src:'https://www.kuzhu.com',
+			img:'images/phone.webp',
+			name:'坚果 R1',
+			price:'￥2999:00',
+		},
+		{
+			src:'https://www.kuzhu.com',
+			img:'images/phone.webp',
+			name:'坚果 R1',
+			price:'￥2999:00',
+		},
+		{
+			src:'https://www.kuzhu.com',
+			img:'images/phone.webp',
+			name:'坚果 R1',
+			price:'￥2999:00',
+		},
+		{
+			src:'https://www.kuzhu.com',
+			img:'images/phone.webp',
+			name:'坚果 R1',
+			price:'￥2999:00',
+		},
+	],
+	[
+		{
+			src:'https://www.kuzhu.com',
+			img:'images/phone2.webp',
+			name:'坚果 R1',
+			price:'￥2999:00',
+		},
+		{
+			src:'https://www.kuzhu.com',
+			img:'images/phone3.webp',
+			name:'坚果 R1',
+			price:'￥2999:00',
+		},
+		{
+			src:'https://www.kuzhu.com',
+			img:'images/phone2.webp',
+			name:'坚果 R1',
+			price:'￥2999:00',
+		},
+		{
+			src:'https://www.kuzhu.com',
+			img:'images/phone3.webp',
+			name:'坚果 R1',
+			price:'￥2999:00',
+		},
+		{
+			src:'https://www.kuzhu.com',
+			img:'images/phone2.webp',
+			name:'坚果 R1',
+			price:'￥2999:00',
+		},
+	],
+	[
+		{
+			src:'https://www.kuzhu.com',
+			img:'images/phone3.webp',
+			name:'坚果 R1',
+			price:'￥2999:00',
+		},
+		{
+			src:'https://www.kuzhu.com',
+			img:'images/phone2.webp',
+			name:'坚果 R1',
+			price:'￥2999:00',
+		},
+		{
+			src:'https://www.kuzhu.com',
+			img:'images/phone2.webp',
+			name:'坚果 R1',
+			price:'￥2999:00',
+		},
+		{
+			src:'https://www.kuzhu.com',
+			img:'images/phone2.webp',
+			name:'坚果 R1',
+			price:'￥2999:00',
+		},
+		{
+			src:'https://www.kuzhu.com',
+			img:'images/phone3.webp',
+			name:'坚果 R1',
+			price:'￥2999:00',
+		},
+	],
+	[
+		{
+			src:'https://www.kuzhu.com',
+			img:'images/phone3.webp',
+			name:'坚果 R1',
+			price:'￥2999:00',
+		},
+		{
+			src:'https://www.kuzhu.com',
+			img:'images/phone3.webp',
+			name:'坚果 R1',
+			price:'￥2999:00',
+		},
+		{
+			src:'https://www.kuzhu.com',
+			img:'images/phone3.webp',
+			name:'坚果 R1',
+			price:'￥2999:00',
+		},
+		{
+			src:'https://www.kuzhu.com',
+			img:'images/phone2.webp',
+			name:'坚果 R1',
+			price:'￥2999:00',
+		},
+		{
+			src:'https://www.kuzhu.com',
+			img:'images/phone3.webp',
+			name:'坚果 R1',
+			price:'￥2999:00',
+		},
+	],
+	[
+		{
+			src:'https://www.kuzhu.com',
+			img:'images/phone.webp',
+			name:'坚果 R1',
+			price:'￥2999:00',
+		},
+		{
+			src:'https://www.kuzhu.com',
+			img:'images/phone3.webp',
+			name:'坚果 R1',
+			price:'￥2999:00',
+		},
+		{
+			src:'https://www.kuzhu.com',
+			img:'images/phone.webp',
+			name:'坚果 R1',
+			price:'￥2999:00',
+		},
+		{
+			src:'https://www.kuzhu.com',
+			img:'images/phone3.webp',
+			name:'坚果 R1',
+			price:'￥2999:00',
+		},
+		{
+			src:'https://www.kuzhu.com',
+			img:'images/phone.webp',
+			name:'坚果 R1',
+			price:'￥2999:00',
+		},
+	],
+	[
+		{
+			src:'https://www.kuzhu.com',
+			img:'images/phone3.webp',
+			name:'坚果 R1',
+			price:'￥2999:00',
+		},
+		{
+			src:'https://www.kuzhu.com',
+			img:'images/phone2.webp',
+			name:'坚果 R1',
+			price:'￥2999:00',
+		},
+		{
+			src:'https://www.kuzhu.com',
+			img:'images/phone2.webp',
+			name:'坚果 R1',
+			price:'￥2999:00',
+		},
+		{
+			src:'https://www.kuzhu.com',
+			img:'images/phone3.webp',
+			name:'坚果 R1',
+			price:'￥2999:00',
+		},
+		{
+			src:'https://www.kuzhu.com',
+			img:'images/phone2.webp',
+			name:'坚果 R1',
+			price:'￥2999:00',
+		},
+	],
+	[
+		{
+			src:'https://www.kuzhu.com',
+			img:'images/phone2.webp',
+			name:'坚果 R1',
+			price:'￥2999:00',
+		},
+		{
+			src:'https://www.kuzhu.com',
+			img:'images/phone3.webp',
+			name:'坚果 R1',
+			price:'￥2999:00',
+		},
+		{
+			src:'https://www.kuzhu.com',
+			img:'images/phone2.webp',
+			name:'坚果 R1',
+			price:'￥2999:00',
+		},
+		{
+			src:'https://www.kuzhu.com',
+			img:'images/phone3.webp',
+			name:'坚果 R1',
+			price:'￥2999:00',
+		},
+		{
+			src:'https://www.kuzhu.com',
+			img:'images/phone3.webp',
+			name:'坚果 R1',
+			price:'￥2999:00',
+		},
+	],
+]
