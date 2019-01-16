@@ -115,9 +115,20 @@ a{
 	z-index: 999;
 }
 .top2 .content{
+	position: relative;
 	height: 40px;
 	line-height: 40px;
-	/*background: pink;*/
+}
+.top2 .content .smart-logo{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 110px;
+	height: 40px;
+	text-align: left;
+	color: rgb(88, 88, 88);
+	display: none;
+	/*background: blue;*/
 }
 .top2 .content .nav{
 	float: left;
@@ -197,6 +208,7 @@ a{
 	margin-left: 70px;
 	font-size: 13px;
 	color: #bcbcbc;
+	cursor: pointer;
 }
 .top3 .content .nav .nav-item:first-child span{
 	margin-left: 0px;
@@ -225,11 +237,13 @@ a{
 	margin-top: -7px;
 	padding-top: 7px;
 	/*background: #green;*/
+	cursor: pointer;
 }
 .top3 .content .dot .dot-item .dot-item-shape{
 	width: 2px;
 	height: 2px;
 	background: #bcbcbc;
+	cursor: pointer;
 }
 .top3 .content .dot .dot-item:nth-child(1):hover~.dot-item-con1{
 	display: block;
@@ -256,6 +270,7 @@ a{
 	border-radius: 5px;
 	padding: 0 15px;
 	z-index: 9999;
+	box-shadow: 0px 2px 3px rgba(150,150,150,0.9);
 }
 .top3 .content .dot.dot2{
 	top: 20px;
@@ -290,7 +305,7 @@ a{
 
 .main .picture{
 	width: 100%;
-	background: pink;
+	/*background: pink;*/
 }
 .main .picture .picture-item{
 	width: 100%;
