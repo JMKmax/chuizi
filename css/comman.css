@@ -16,6 +16,17 @@ a{
 	margin-left: 25px;
 	margin-right: 25px;
 }
+.floatage{
+	background: #fff;
+	width: 100%;
+	position: relative;
+	z-index: 999;
+	height: 0px;
+	overflow: hidden;
+	position: fixed;
+	top:0;
+	left: 0;
+}
 .header{
 	background: #fff;
 	width: 100%;
