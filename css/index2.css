@@ -179,6 +179,7 @@ a{
 	height: 45px;
 	margin-right: 20px;
 	float: right;
+	margin-top: 10px;
 }
 /*.floatage .user .fa-shopping-bag:hover ~ .user-box{
 	display: block;
